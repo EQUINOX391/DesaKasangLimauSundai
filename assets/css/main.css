@@ -551,9 +551,13 @@ section {
 
 .get-started .content h3:after {
   content: "";
-  position: absolute;
+  position: relative;
   display: block;
-  width: 60px;
+  margin-top: 25px;
+  text-align: center;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
   height: 4px;
   background: var(--color-primary);
   left: 0;
